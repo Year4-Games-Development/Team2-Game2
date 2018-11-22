@@ -4,7 +4,7 @@ using System.Collections;
 public class Laps : MonoBehaviour
 {
 
-    // These Static Variables are accessed in "checkpoint" Script
+    
     public Transform[] checkPointArray;
     public static Transform[] checkpoint1;
     public static int currentCheckpoint = 0;
