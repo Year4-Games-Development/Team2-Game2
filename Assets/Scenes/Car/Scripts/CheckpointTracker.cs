@@ -88,5 +88,23 @@ public class CheckpointTracker : MonoBehaviour {
         checkpointText.text = "Checkpoints : " + MarkTracker.ToString();
        
     }
+
+    public GameObject NextCheckpoint(GameObject current)
+    {
+        if (current == Checkpoint1)
+            return Checkpoint2;
+        if (current == Checkpoint2)
+            return Checkpoint3;
+        if (current == Checkpoint3)
+            return Checkpoint4;
+        if (current == Checkpoint4)
+            return Checkpoint5;
+        if (current == Checkpoint5)
+            return Checkpoint6;
+        if (current == Checkpoint6)
+            return Checkpoint1;
+
+        return Checkpoint1;
+    }
    
 }

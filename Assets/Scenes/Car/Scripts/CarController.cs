@@ -1,7 +1,6 @@
 using System;
 using UnityEngine;
 
-
 namespace UnityStandardAssets.Vehicles.Car
 {
     internal enum CarDriveType
@@ -72,7 +71,6 @@ namespace UnityStandardAssets.Vehicles.Car
             m_CurrentTorque = m_FullTorqueOverAllWheels - (m_TractionControl*m_FullTorqueOverAllWheels);
         }
 
-      
 
         private void GearChanging()
         {
