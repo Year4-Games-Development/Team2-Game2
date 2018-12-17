@@ -8,18 +8,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="race-track-lake" t="Include">
-          <e p="readmore.txt" t="Include" />
-          <e p="Standard Assets" t="Include">
-            <e p="Environment" t="Include">
-              <e p="Water (Basic)" t="Include">
-                <e p="Shaders" t="Include">
-                  <e p="FXWaterBasic.shader" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">
             <e p="Scripts" t="Include">
@@ -40,6 +28,7 @@
           <e p="CamerSwitch.cs" t="Include" />
           <e p="CheckpointTracker.cs" t="Include" />
           <e p="MainCameraHandler.cs" t="Include" />
+          <e p="obst.cs" t="Include" />
           <e p="WorldRotationObject.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
@@ -180,19 +169,6 @@
             <e p="WaypointProgressTracker.cs" t="Include" />
           </e>
           <e p="Vehicles" t="Include">
-            <e p="Aircraft" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="AeroplaneAiControl.cs" t="Include" />
-                <e p="AeroplaneAudio.cs" t="Include" />
-                <e p="AeroplaneController.cs" t="Include" />
-                <e p="AeroplaneControlSurfaceAnimator.cs" t="Include" />
-                <e p="AeroplanePropellerAnimator.cs" t="Include" />
-                <e p="AeroplaneUserControl2Axis.cs" t="Include" />
-                <e p="AeroplaneUserControl4Axis.cs" t="Include" />
-                <e p="JetParticleEffect.cs" t="Include" />
-                <e p="LandingGear.cs" t="Include" />
-              </e>
-            </e>
             <e p="Car" t="Include">
               <e p="Scripts" t="Include">
                 <e p="BrakeLight.cs" t="Include" />
@@ -205,6 +181,17 @@
                 <e p="SkidTrail.cs" t="Include" />
                 <e p="Suspension.cs" t="Include" />
                 <e p="WheelEffects.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="track2" t="Include">
+          <e p="Standard Assets" t="Include">
+            <e p="Environment" t="Include">
+              <e p="Water (Basic)" t="Include">
+                <e p="Shaders" t="Include">
+                  <e p="FXWaterBasic.shader" t="Include" />
+                </e>
               </e>
             </e>
           </e>
