@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hcar01
+<<<<<<< HEAD
   - GC
+=======
+>>>>>>> 08125713adbd94410ca97dc09073a2ea5b6827ef
   layers:
   - Default
   - TransparentFX

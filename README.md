@@ -2,31 +2,27 @@
 
 # Main Features:
 
-Static camera (we could improve that later on) with a view on top of the level.
-At first we would have only 1 car, we can control it with the keyboard (see if we can include controllers for the keybindings as well).
-UI would pop from ESC key, you would have various levels to choose.
-On a second point we could implement a 2nd car that a 2nd player could control (for example, player 1 would control the 1st car with WASD and the 2nd player could control the 2nd car with UP/DOWN/LEFT/RIGHT arrow keys).
+Static camera with a view on top of the level.
 
+- 1 Car
+- Checkpoints and Laps
+- Boost with holding SHIFT
+- Minimap (radar) on the top right of the screen
 
-# Win conditions:
+# Upcoming features
+The camera would follow checkpoints instead of the player.
+Once we are done making 2P, we could make a condition where if one car gets out of the screen, the other player wins the game.
 
-Be the first to complete the track <insert_amount_of_times_here> times.
+# Win conditions
 
+- Be the first to complete the track <insert_amount_of_times_here> times.
+- Be the last car on the screen.
 
-# Lose conditions:
+# Lose conditions
 
-If you're not the first to complete the track <insert_amount_of_times_here> times, you lose.
-If both players haven't finished the track after <insert_time_here> minutes, it's a draw.
+- If you're not the first to complete the track <insert_amount_of_times_here> times.
+- If the player gets out of the camera.
 
+# Draw Conditions
 
-
-
-
-
-# Requirements
-
-# Assets:
-
-2 cars - PNG (a texture that we will put on top of a cube or other simple polygon)
-1 level (or more) - PNG or JPG or level designed from unity directly
-UI theme (??)
+If both players haven't finished the track after <insert_time_here> minutes and they are still both on screen, it's a draw.

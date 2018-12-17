@@ -36,6 +36,7 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private float m_RevRangeBoundary = 1f;
         [SerializeField] private float m_SlipLimit;
         [SerializeField] private float m_BrakeTorque;
+        
 
         private Quaternion[] m_WheelMeshLocalRotations;
         private Vector3 m_Prevpos, m_Pos;
@@ -46,6 +47,8 @@ namespace UnityStandardAssets.Vehicles.Car
         private float m_CurrentTorque;
         private Rigidbody m_Rigidbody;
         private const float k_ReversingThreshold = 0.01f;
+        
+        private bool boost = false;
 
         public bool Skidding { get; private set; }
         public float BrakeInput { get; private set; }
@@ -70,7 +73,17 @@ namespace UnityStandardAssets.Vehicles.Car
             m_Rigidbody = GetComponent<Rigidbody>();
             m_CurrentTorque = m_FullTorqueOverAllWheels - (m_TractionControl*m_FullTorqueOverAllWheels);
         }
+        void Update ()
+        {
 
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+                // IF Left Control button is pressed down  pass fast motion speed to SetSpeed function
+                CapSpeed (8f);
+		
+            if (Input.GetKeyUp(KeyCode.LeftShift))
+                // if Left Shift button is released, set speed to regular 
+                CapSpeed (1f);
+        }
 
         private void GearChanging()
         {
@@ -151,7 +164,7 @@ namespace UnityStandardAssets.Vehicles.Car
 
             SteerHelper();
             ApplyDrive(accel, footbrake);
-            CapSpeed();
+            CapSpeed(1f);
 
             //Set the handbrake.
             //Assuming that wheels 2 and 3 are the rear wheels.
@@ -172,9 +185,9 @@ namespace UnityStandardAssets.Vehicles.Car
         }
 
 
-        private void CapSpeed()
+        private void CapSpeed( float speed)
         {
-            float speed = m_Rigidbody.velocity.magnitude;
+             speed = m_Rigidbody.velocity.magnitude * speed;
             switch (m_SpeedType)
             {
                 case SpeedType.MPH:

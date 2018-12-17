@@ -151,8 +151,9 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Horizontal
-    descriptiveName: 
-    descriptiveNegativeName: 
+    descriptiveName: Left Thumbstick X Axis to the right increases axis up to 1.
+    descriptiveNegativeName: Left Thumbstick Y Axis to the left decreases axis up
+      to -1.
     negativeButton: 
     positiveButton: 
     altNegativeButton: 
@@ -167,8 +168,8 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Vertical
-    descriptiveName: 
-    descriptiveNegativeName: 
+    descriptiveName: Left Thumbstick Y Axis up increases axis up to 1.
+    descriptiveNegativeName: Left Thumbstick Y Axis down decreases axis up to -1.
     negativeButton: 
     positiveButton: 
     altNegativeButton: 
