@@ -8,6 +8,8 @@ Static camera with a view on top of the level.
 - Checkpoints and Laps
 - Boost with holding SHIFT
 - Minimap (radar) on the top right of the screen
+- Whenever Player drivers into a obstacle the car slows down
+- Changing camera movement on Level 2 using c and v keys
 
 # Upcoming features
 The camera would follow checkpoints instead of the player.
