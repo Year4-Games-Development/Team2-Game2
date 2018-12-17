@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="088e3951-e72d-42b4-b7e9-bf790d394b8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/SampleScenes/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/obst.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/obst.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Team2-Game2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team2-Game2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Team2-Game2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team2-Game2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SampleScenes/Materials/YellowSmooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SampleScenes/Materials/YellowSmooth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Car.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Car.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,27 +41,145 @@
     <session id="878692532">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="646" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="646" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CamerSwitch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state>
+              <caret selection-end-line="6" selection-end-column="1" />
               <folding>
-                <marker date="1543840058718" expanded="false" signature="6:92" ph="..." />
-                <marker date="1543840058718" expanded="true" signature="134:494" ph="{...}" />
-                <marker date="1543840058718" expanded="true" signature="207:268" ph="{...}" />
-                <marker date="1543840058718" expanded="true" signature="283:492" ph="{...}" />
-                <marker date="1543840058718" expanded="true" signature="321:387" ph="{...}" />
-                <marker date="1543840058718" expanded="true" signature="423:488" ph="{...}" />
+                <marker date="1545058911911" expanded="true" signature="6:92" ph="..." />
+                <marker date="1545058911911" expanded="true" signature="134:494" ph="{...}" />
+                <marker date="1545058911911" expanded="true" signature="207:268" ph="{...}" />
+                <marker date="1545058911911" expanded="true" signature="283:492" ph="{...}" />
+                <marker date="1545058911911" expanded="true" signature="321:387" ph="{...}" />
+                <marker date="1545058911911" expanded="true" signature="423:488" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding>
+                <marker date="1545064948517" expanded="false" signature="6:32" ph="..." />
+                <marker date="1545064948517" expanded="true" signature="76:14047" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="109:193" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="222:259" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="307:14045" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="2604:3138" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="2713:2830" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="3161:3529" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="3587:4035" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="3844:3901" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="3968:4025" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="4179:4249" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="4402:4473" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="4518:5039" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="4586:4819" ph="/* gear factor is a normalised representation of the current speed within the current gear's range of speeds. ... */" />
+                <marker date="1545064948517" expanded="true" signature="5078:5580" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="5101:5239" ph="/* calculate engine revs (for display / sound) ... */" />
+                <marker date="1545064948517" expanded="true" signature="5670:7173" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="5720:6013" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="6298:6399" ph="/* Set the steer on the front wheels. ... */" />
+                <marker date="1545064948517" expanded="true" signature="6684:6768" ph="/* Set the handbrake. ... */" />
+                <marker date="1545064948517" expanded="true" signature="6800:7011" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="7218:7860" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="7322:7850" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="7924:9347" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="8003:8835" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="8182:8298" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="8876:9337" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="8992:9107" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="9147:9323" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="9384:10242" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="9434:9711" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="9897:10179" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="10342:10564" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="10575:10827" ph="/* checks if the wheels are spinning and is so does three things ... */" />
+                <marker date="1545064948517" expanded="true" signature="10868:11996" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="10957:11986" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="11257:11679" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="11352:11484" ph="/* avoiding all four tires screeching at the same time ... */" />
+                <marker date="1545064948517" expanded="true" signature="11532:11631" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="11791:11878" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="12140:13259" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="12217:13249" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="12376:12553" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="13314:13759" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="13392:13479" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="13496:13749" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="13634:13735" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="13804:14039" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="13854:14003" ph="{...}" />
+                <marker date="1545064948517" expanded="true" signature="13920:13989" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/obst.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <marker date="1545066858268" expanded="false" signature="6:98" ph="..." />
+                <marker date="1545066858268" expanded="true" signature="133:419" ph="{...}" />
+                <marker date="1545066858268" expanded="true" signature="221:281" ph="{...}" />
+                <marker date="1545066858268" expanded="true" signature="329:417" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CheckpointTracker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding>
+                <marker date="1545062190540" expanded="true" signature="6:100" ph="..." />
+                <marker date="1545062190540" expanded="true" signature="148:1251" ph="{...}" />
+                <marker date="1545062190540" expanded="true" signature="335:457" ph="{...}" />
+                <marker date="1545062190540" expanded="true" signature="477:498" ph="{...}" />
+                <marker date="1545062190540" expanded="true" signature="557:1103" ph="{...}" />
+                <marker date="1545062190540" expanded="true" signature="588:731" ph="/* if (!collider.gameObject.CompareTag(&quot;Player&quot;)) ... */" />
+                <marker date="1545062190540" expanded="true" signature="811:940" ph="{...}" />
+                <marker date="1545062190540" expanded="true" signature="1144:1249" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -43,16 +187,36 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>brake</find>
+      <find>BrakeIn</find>
+      <find>Checkpoint</find>
+      <find>speed</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Obstacle</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CheckpointTracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainCameraHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/obst.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CamerSwitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WorldRotationObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CamerSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/obstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CheckpointTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/obst.cs" />
       </list>
     </option>
   </component>
@@ -63,10 +227,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="282" />
-    <option name="y" value="277" />
-    <option name="width" value="1920" />
-    <option name="height" value="1050" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -74,13 +237,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Standard Assets" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Standard Assets" type="1045f7f1:UnityExplorerNode" />
+              <item name="Vehicles" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Standard Assets" type="1045f7f1:UnityExplorerNode" />
+              <item name="Vehicles" type="1045f7f1:UnityExplorerNode" />
+              <item name="Car" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Standard Assets" type="1045f7f1:UnityExplorerNode" />
+              <item name="Vehicles" type="1045f7f1:UnityExplorerNode" />
+              <item name="Car" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,11 +330,13 @@
       <option name="presentableId" value="Default" />
       <updated>1543840037716</updated>
       <workItem from="1543840046769" duration="15000" />
+      <workItem from="1545059797484" duration="5774000" />
+      <workItem from="1545066118223" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15000" />
+    <option name="totallyTimeSpent" value="6547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -143,18 +348,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="282" y="277" width="1920" height="1050" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25273523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -162,13 +360,45 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25273523" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -189,17 +419,118 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/obstacle.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WorldRotationObject.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MainCameraHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CamerSwitch.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state>
+          <caret selection-end-line="6" selection-end-column="1" />
           <folding>
-            <marker date="1543840058718" expanded="false" signature="6:92" ph="..." />
-            <marker date="1543840058718" expanded="true" signature="134:494" ph="{...}" />
-            <marker date="1543840058718" expanded="true" signature="207:268" ph="{...}" />
-            <marker date="1543840058718" expanded="true" signature="283:492" ph="{...}" />
-            <marker date="1543840058718" expanded="true" signature="321:387" ph="{...}" />
-            <marker date="1543840058718" expanded="true" signature="423:488" ph="{...}" />
+            <marker date="1545058911911" expanded="true" signature="6:92" ph="..." />
+            <marker date="1545058911911" expanded="true" signature="134:494" ph="{...}" />
+            <marker date="1545058911911" expanded="true" signature="207:268" ph="{...}" />
+            <marker date="1545058911911" expanded="true" signature="283:492" ph="{...}" />
+            <marker date="1545058911911" expanded="true" signature="321:387" ph="{...}" />
+            <marker date="1545058911911" expanded="true" signature="423:488" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CheckpointTracker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <marker date="1545062190540" expanded="true" signature="6:100" ph="..." />
+            <marker date="1545062190540" expanded="true" signature="148:1251" ph="{...}" />
+            <marker date="1545062190540" expanded="true" signature="335:457" ph="{...}" />
+            <marker date="1545062190540" expanded="true" signature="477:498" ph="{...}" />
+            <marker date="1545062190540" expanded="true" signature="557:1103" ph="{...}" />
+            <marker date="1545062190540" expanded="true" signature="588:731" ph="/* if (!collider.gameObject.CompareTag(&quot;Player&quot;)) ... */" />
+            <marker date="1545062190540" expanded="true" signature="811:940" ph="{...}" />
+            <marker date="1545062190540" expanded="true" signature="1144:1249" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <marker date="1545064948517" expanded="false" signature="6:32" ph="..." />
+            <marker date="1545064948517" expanded="true" signature="76:14047" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="109:193" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="222:259" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="307:14045" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="2604:3138" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="2713:2830" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="3161:3529" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="3587:4035" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="3844:3901" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="3968:4025" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="4179:4249" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="4402:4473" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="4518:5039" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="4586:4819" ph="/* gear factor is a normalised representation of the current speed within the current gear's range of speeds. ... */" />
+            <marker date="1545064948517" expanded="true" signature="5078:5580" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="5101:5239" ph="/* calculate engine revs (for display / sound) ... */" />
+            <marker date="1545064948517" expanded="true" signature="5670:7173" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="5720:6013" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="6298:6399" ph="/* Set the steer on the front wheels. ... */" />
+            <marker date="1545064948517" expanded="true" signature="6684:6768" ph="/* Set the handbrake. ... */" />
+            <marker date="1545064948517" expanded="true" signature="6800:7011" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="7218:7860" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="7322:7850" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="7924:9347" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="8003:8835" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="8182:8298" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="8876:9337" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="8992:9107" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="9147:9323" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="9384:10242" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="9434:9711" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="9897:10179" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="10342:10564" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="10575:10827" ph="/* checks if the wheels are spinning and is so does three things ... */" />
+            <marker date="1545064948517" expanded="true" signature="10868:11996" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="10957:11986" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="11257:11679" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="11352:11484" ph="/* avoiding all four tires screeching at the same time ... */" />
+            <marker date="1545064948517" expanded="true" signature="11532:11631" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="11791:11878" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="12140:13259" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="12217:13249" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="12376:12553" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="13314:13759" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="13392:13479" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="13496:13749" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="13634:13735" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="13804:14039" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="13854:14003" ph="{...}" />
+            <marker date="1545064948517" expanded="true" signature="13920:13989" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/obst.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <marker date="1545066858268" expanded="false" signature="6:98" ph="..." />
+            <marker date="1545066858268" expanded="true" signature="133:419" ph="{...}" />
+            <marker date="1545066858268" expanded="true" signature="221:281" ph="{...}" />
+            <marker date="1545066858268" expanded="true" signature="329:417" ph="{...}" />
           </folding>
         </state>
       </provider>

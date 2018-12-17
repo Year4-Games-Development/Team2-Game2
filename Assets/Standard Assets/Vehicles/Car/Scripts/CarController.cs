@@ -31,7 +31,7 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private float m_MaxHandbrakeTorque;
         [SerializeField] private float m_Downforce = 100f;
         [SerializeField] private SpeedType m_SpeedType;
-        [SerializeField] private float m_Topspeed = 200;
+        [SerializeField] public float m_Topspeed = 200;
         [SerializeField] private static int NoOfGears = 5;
         [SerializeField] private float m_RevRangeBoundary = 1f;
         [SerializeField] private float m_SlipLimit;
@@ -47,9 +47,11 @@ namespace UnityStandardAssets.Vehicles.Car
         private float m_CurrentTorque;
         private Rigidbody m_Rigidbody;
         private const float k_ReversingThreshold = 0.01f;
-        
+           
         private bool boost = false;
 
+        public float obst;
+            
         public bool Skidding { get; private set; }
         public float BrakeInput { get; private set; }
         public float CurrentSteerAngle{ get { return m_SteerAngle; }}
@@ -85,6 +87,8 @@ namespace UnityStandardAssets.Vehicles.Car
                 CapSpeed (1f);
         }
 
+        
+           
         private void GearChanging()
         {
             float f = Mathf.Abs(CurrentSpeed/MaxSpeed);
@@ -185,7 +189,7 @@ namespace UnityStandardAssets.Vehicles.Car
         }
 
 
-        private void CapSpeed( float speed)
+        public void CapSpeed( float speed)
         {
              speed = m_Rigidbody.velocity.magnitude * speed;
             switch (m_SpeedType)
